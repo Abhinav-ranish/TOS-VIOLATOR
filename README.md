@@ -17,7 +17,7 @@ npm install
 Also make sure u have node.js latest version.
 
 ### - Token - 
-Input a bot token into **`index.js`** at `botToken: "YOUR TOKEN HERE"`. Note that DOW requires full admin permissions on a server to work.
+Input a bot token into **`index.js`** at `botToken: "YOUR TOKEN HERE"`. Note that TOS VIOLATOR (BLAZE) requires full admin permissions on a server to work.
 
 ### - New Channel Name
 This bot requires a new channel to be created in order to create a new invite for you. you can customize that in the `newChannelName` variable. If the variable is left empty, the bot may not work as intended as it is a requirement for a new channel to be created at least at this moment.
