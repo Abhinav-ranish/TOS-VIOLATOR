@@ -12,7 +12,7 @@ This Discord bot will completely destroy any server you want, all you need is th
 ### - WARNING! -
 This discord bot will destroy any and all servers that the bot is connected to and has the required permissions
 
-# TOS VIOLATOR Setup
+# ⚠TOS VIOLATOR Setup⚠
 npm install
 Also make sure u have node.js latest version.
 
