@@ -1,0 +1,20 @@
+{
+  "name": "BLAZE NUKE",
+  "version": "1.0.0",
+  "description": "NUKER",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "Abhinav",
+  "license": "ISC",
+  "dependencies": {
+    "center-align": "^1.0.1",
+    "chalk": "^3.0.0",
+    "colors": "^1.4.0",
+    "console-title": "^1.1.0",
+    "discord.js": "^11.4.2",
+    "readline": "^1.3.0"
+  }
+}
