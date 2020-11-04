@@ -10,8 +10,8 @@ var colors = require("colors");
 // Settings for the bot.
 const settings = {
     //Make sure you insert actual token rather than Client ID
-    botToken: "HARSHIT PUT TOKEN HERE",
-    newChannelName: "TOS VIOLATION" //needs new channel name in order to create new invite
+    botToken: "PUT BOT TOKEN HERE",
+    newChannelName: "TOS VIOLATOR" //needs new channel name in order to create new invite
 };
 
 //await cmd visuals 
